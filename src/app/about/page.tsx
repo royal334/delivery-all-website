@@ -5,6 +5,9 @@ import Vission from './components/Vission'
 import Stats from '@/components/Stats'
 import WhyUs from './components/WhyUs'
 import HowItWorks from './components/HowItWorks'
+import Team from './components/Team'
+import PartnersCard from './components/PartnersCard'
+import Newletter from './components/Newletter'
 
 const AboutPage = () => {
   return (
@@ -15,6 +18,9 @@ const AboutPage = () => {
         <Stats/>
        <WhyUs/>
        <HowItWorks/>
+       <Team/>
+       <PartnersCard/>
+       <Newletter/>
     </div>
   )
 }

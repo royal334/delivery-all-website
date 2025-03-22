@@ -70,3 +70,42 @@ ul {
     padding:1rem 25px ;
   
 }
+
+/* partners card */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.slide-animation {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  will-change: transform;
+}
+
+.image-remove-bg {
+  mix-blend-mode: multiply;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Additional style to ensure the container works seamlessly */
+.no-scrollbar {
+  display: flex;
+  white-space: nowrap;
+  /* Prevents wrapping of elements */
+  overflow: hidden;
+}
