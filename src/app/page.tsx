@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero"
 import Stats from "@/components/Stats"
-import AboutUs from "@/components/AboutUs";
+import AboutUs from "@/components/AboutUs"
+import HowItWorks from "@/components/HowItWorks";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
           <Hero/>
           <Stats/>
           <AboutUs/>
+          <HowItWorks/>
     </>
   );
 }

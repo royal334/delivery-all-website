@@ -32,7 +32,7 @@ function Header() {
         </div>
       </nav>
 
-      {isOpen ? <div onClick={toggleMenu} className='absolute bg-[#80808080] top-0 left-0 w-full h-full z-50 '></div> : null}
+      {isOpen ? <div onClick={toggleMenu} className='absolute bg-[#80808080] top-0 left-0 w-full h-full z-40 '></div> : null}
     {isOpen &&  <nav className='md:hidden '>
       
       <ul className=' flex flex-col items-center justify-center absolute right-0 top-0 w-full h-3/4 bg-white z-60 gap-6 px-4'>
