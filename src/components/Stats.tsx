@@ -4,7 +4,7 @@ import Stat from './Stat'
 function Stats() {
   return (
     <section id='Stats' className='bg-[#F1F5F7]'>
-          <div className='container mx-auto py-10  flex flex-col md:flex-row items-center justify-between gap-6'>
+          <div className='container mx-auto py-10 lg:px-20  grid lg:grid-cols-4  gap-20'>
                <Stat number='23k+' text='Deliveries' />
                <Stat number='3k+' text='Active Users'/>
                <Stat number='120+' text='Partner Vendors'/>

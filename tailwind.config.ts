@@ -21,6 +21,10 @@ const config: Config = {
           'black-1':'#1E1E1E',
         
       },
+      fontFamily: {
+        inter: ['var(--font-inter)', 'sans-serif'],
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+      },
     },
   },
   plugins: [],
