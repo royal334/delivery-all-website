@@ -11,7 +11,7 @@ function Hero() {
                <div className='flex items-start gap-2 w-fit h-[22px]  '><span className='text-bright-green uppercase font-semibold mb-2'>fast</span> <Image src ='/circle.png' alt ='' width={6} height={6} className='self-center'  /> <span className='text-bright-green uppercase font-semibold mb-2'>secured</span> <Image src ='/circle.png' alt ='' width={6} height={6} className='self-center' /> <span className='text-bright-green uppercase font-semibold mb-2'>reliable</span></div>
                <h1 className='font-bold text-4xl md:text-5xl text-white mb-8 w-3/4'>Fast And Reliable Delivery Solutions</h1>
                
-               <p className='text-light-grey my-4'>Whether you're an individual, seller, or buyer, our platform lets you schedule and track deliveries with ease.</p>
+               <p className='text-light-grey my-4'>Whether you&apos;re an individual, seller, or buyer, our platform lets you schedule and track deliveries with ease.</p>
 
                <div className='flex gap-2 items-center'><Image src ='/icon-thumb-up-filled.png' alt='' width={20} height={20}/><span className='text-light-grey-2'>4.5/5 Rating</span> <Image src='/icon-truck-delivery.png' alt ='' width={20} height={20} /><span className='text-light-grey-2'>3k+ Deliveries</span> <Image src='/icon-users-group.png' alt='' width={20} height= {20} /> <span className='text-light-grey-2'>200+ Users</span> </div>
           </div>
