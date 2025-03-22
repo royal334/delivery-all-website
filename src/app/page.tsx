@@ -1,7 +1,13 @@
-
+import Hero from "@/components/Hero"
+import Stats from "@/components/Stats"
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
   return (
-    <h1>Royal</h1>
+    <>
+          <Hero/>
+          <Stats/>
+          <AboutUs/>
+    </>
   );
 }

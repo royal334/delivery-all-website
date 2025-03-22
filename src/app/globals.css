@@ -14,14 +14,58 @@
   }
 } */
 
-body {
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#Hero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url('/heroimage.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media(min-width:768px){
+  #Hero{
+    background-position: top;
+  }
+}
+
+#pickup{
+  background: url('/icon-current-location.png'), url('/chevron-right.svg') ;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 18px 18px;
+  background-position: 5px 50%;
+  padding:1rem 25px ;
+}
+
+#delivery{
+  background: url('/icon-map-pin.png'), url('/chevron-right.svg') ;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 18px 18px;
+  background-position: 5px 50%;
+  padding:1rem 25px ;
+}
+
+#document{
+
+    background: url('/icon-box.png'), url('/chevron-right.svg') ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 18px 18px;
+    background-position: 5px 50%;
+    padding:1rem 25px ;
+  
 }
