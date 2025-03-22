@@ -54,7 +54,7 @@ function Footer() {
                     </ul>
           </div>
      </div>
-      <p className='text-white text-center my-4 text-sm w-[342px] md:w-auto'>Copyright © 2025 Chibuzo Anthony • All Rights Reserved</p>
+      <p className='text-white text-center my-16 text-sm w-[342px] md:w-auto'>Copyright © 2025 Chibuzo Anthony • All Rights Reserved</p>
     </footer>
   )
 }
