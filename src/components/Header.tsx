@@ -13,7 +13,7 @@ function Header() {
   }
 
   return (
-    <header className='container mx-auto p-4 my-2 flex items-center justify-between flex-wrap md:flex-nowrap'>
+    <header className='sticky top-0 container mx-auto p-4 my-2 flex items-center justify-between flex-wrap md:flex-nowrap'>
       <div className='w-full flex justify-between items-center md:w-auto'>
         <Image src='/DeliverAll@2x.png' alt='Delivery All' width={94} height={20} />
         <Image src='/icon-menu.png' alt="Menu button" className='md:hidden' width={36} height={36} onClick={toggleMenu} />
