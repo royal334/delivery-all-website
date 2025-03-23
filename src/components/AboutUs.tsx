@@ -4,7 +4,7 @@ import Image from 'next/image'
 function AboutUs() {
   return (
     <section>
-          <div className='container mx-auto py-16 px-6 '>
+          <div className='container mx-auto py-16 px-4 '>
                <div className='w-full flex items-center justify-center flex-col gap-3 mb-16'>
                     <span className='uppercase font-semibold text-bright-green text-center'>About us</span>
                     <h3 className='text-bluish-green font-bold text-xl'>Why Choose DeliverAll?</h3>
