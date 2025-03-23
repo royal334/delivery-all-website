@@ -6,8 +6,8 @@ import Stats from '@/components/Stats'
 import WhyUs from './components/WhyUs'
 import HowItWorks from '../../components/HowItWorks'
 import Team from './components/Team'
-import PartnersCard from './components/PartnersCard'
-import Newletter from './components/Newletter'
+import PartnersCard from '../../components/PartnersCard'
+import Newletter from '../../components/Newletter'
 
 const AboutPage = () => {
   return (

@@ -1,8 +1,13 @@
 import React from 'react'
+import ContactSection from '@/components/ContactSection'
+import Newletter from '@/components/Newletter'
 
 function page() {
   return (
-    <div>page</div>
+     <>
+     <ContactSection/>
+     <Newletter/>
+     </>
   )
 }
 
