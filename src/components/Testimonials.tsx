@@ -22,7 +22,7 @@ function Testimonials() {
                                    <Image src='/ratingstars.png' alt='star ratings' width={76} height={12}/>
                               </div>
                          </div>
-                         <p className='font-poppins text-light-grey-3 text-sm'>'I can send multiple orders to different locations without stress. The tracking feature is amazing!'</p>
+                         <p className='font-poppins text-light-grey-3 text-sm'>&apos;I can send multiple orders to different locations without stress. The tracking feature is amazing!&apos;</p>
                     </div>
 
 
@@ -35,7 +35,7 @@ function Testimonials() {
                                    <Image src='/ratingstars.png' alt='star ratings' width={76} height={12}/>
                               </div>
                          </div>
-                         <p className='font-poppins text-light-grey-3 text-sm'>'I don’t have to meet the recipient in person. I just schedule my package, and DeliverAll takes care of the rest.'</p>
+                         <p className='font-poppins text-light-grey-3 text-sm'>&apos;I don’t have to meet the recipient in person. I just schedule my package, and DeliverAll takes care of the rest.&apos;</p>
                     </div>
 
                     <div className=' flex flex-col border-[0.5px] p-6 rounded-3xl border-bright-green'>
@@ -47,7 +47,7 @@ function Testimonials() {
                                    <Image src='/ratingstars.png' alt='star ratings' width={76} height={12}/>
                               </div>
                          </div>
-                         <p className='font-poppins text-light-grey-3 text-sm'>'Great customer service! They helped me track a delayed package and resolved the issue quickly.</p>
+                         <p className='font-poppins text-light-grey-3 text-sm'>&apos;Great customer service! They helped me track a delayed package and resolved the issue quickly&apos;.</p>
                     </div>
 
 
