@@ -10,7 +10,7 @@ function Header() {
   const [activeLink, setActiveLink] = useState('home')
 
 
-  function handleLinkClick(link: any){
+  function handleLinkClick(link:string){
     setActiveLink(link)
   }
 
