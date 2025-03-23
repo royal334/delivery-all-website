@@ -39,6 +39,12 @@ ul {
   background-position: center;
 }
 
+#ContactHero{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url('/contactheroimage.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media(min-width:768px){
   #Hero{
     background-position: top;

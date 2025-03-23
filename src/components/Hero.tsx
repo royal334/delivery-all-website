@@ -9,7 +9,7 @@ function Hero() {
           
           <div>
                <div className='flex items-start gap-2 w-fit h-[22px] mb-6 '><span className='text-bright-green uppercase font-semibold mb-2'>fast</span> <Image src ='/circle.png' alt ='' width={6} height={6} className='self-center'  /> <span className='text-bright-green uppercase font-semibold mb-2'>secured</span> <Image src ='/circle.png' alt ='' width={6} height={6} className='self-center' /> <span className='text-bright-green uppercase font-semibold mb-2'>reliable</span></div>
-               <h1 className='font-bold text-4xl md:text-5xl text-white mb-8 w-3/4'>Fast And Reliable Delivery Solutions</h1>
+               <h1 className='font-bold text-4xl md:text-5xl text-white mb-8 md:w-3/4'>Fast And Reliable Delivery Solutions</h1>
                
 
                <p className='text-light-grey my-4'>Whether you&apos;re an individual, seller, or buyer, our platform lets you schedule and track deliveries with ease.</p>
