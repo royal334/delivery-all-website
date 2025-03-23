@@ -44,10 +44,10 @@ function Header() {
           <ul className=' flex flex-col justify-center items-center absolute top-0 bg-white right-0 w-full h-full z-60 gap-10 px-4'>
             <Image src='/icon-menu.png' alt="Menu button" className='md:hidden z-70 mt-6 self-end ' width={36} height={36} onClick={toggleMenu} />
               <div className='mb-auto flex flex-col gap-10'>
-                <li className='text-center  uppercase'><Link href='/' className=' font-semibold '>Home</Link></li>
-                <li className='text-center uppercase'><Link href='/about' className='font-semibold '>About</Link></li>
-                <li className='text-center uppercase'><Link href='/tracking' className=' font-semibold '>Tracking</Link></li>
-                <li className='text-center uppercase'><Link href='/contact' className='font-semibold '>Contact</Link></li>
+                <li className='text-center  uppercase'><Link href='/' className=' font-semibold ' onClick={toggleMenu}>Home</Link></li>
+                <li className='text-center uppercase'><Link href='/about' className='font-semibold ' onClick={toggleMenu}>About</Link></li>
+                <li className='text-center uppercase'><Link href='/tracking' className=' font-semibold ' onClick={toggleMenu}>Tracking</Link></li>
+                <li className='text-center uppercase'><Link href='/contact' className='font-semibold ' onClick={toggleMenu}>Contact</Link></li>
               </div>
             </ul>
             
