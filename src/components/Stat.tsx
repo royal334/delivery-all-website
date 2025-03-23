@@ -8,7 +8,7 @@ interface StatProps {
 
 function Stat(props:StatProps) {
   return (
-    <div className='flex rounded-[100px] bg-white border-2 border-border-gray py-[20px] px-6 items-center'>
+    <div className='flex rounded-[100px] bg-white border-2 border-border-gray lg:py-[20px] py-3 px-2 lg:px-6 items-center'>
       <Icons.tickCircle/>
       <div className='flex flex-col  ml-6'>
           <span className='font-bold text-bluish-green text-xl font-inter'>{props.number}</span>
