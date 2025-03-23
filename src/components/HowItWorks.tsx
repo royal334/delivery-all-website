@@ -68,8 +68,8 @@ const HowItWorks = () => {
                   </ul>
 
                   <div className='flex mt-6 gap-3'>
-                      <button><Link href='/about' className='text-bluish-green bg-white px-6 py-4 rounded-md'>Learn More</Link></button>
-                      <button className='text-center'><Link href='/' className='font-bold text-white rounded-md border border-white px-6 py-4 '>Make A Delivery</Link></button>
+                      <button className='text-bluish-green bg-white px-2 py-2 rounded-md w-1/2'><Link href='/about' >Learn More</Link></button>
+                      <button className='font-bold text-white rounded-md border border-white px-2 py-2 w-1/2'><Link href='/' >Make A Delivery</Link></button>
                   </div>
             </div>
 
