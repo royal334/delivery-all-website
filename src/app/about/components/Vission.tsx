@@ -5,7 +5,7 @@ import React from 'react'
 const Vission = () => {
   return (
     <div className='container mx-auto lg:px-20 '>
-      <div className="flex justify-between flex-col md:flex-row  w-full items-center ">
+      <div className="flex justify-between flex-col flex-col-reverse md:flex-row  w-full items-center ">
       <div className="">
             <Image src='/vission-image.png' alt='vission-image' width={464} height={464}/>
         </div>
