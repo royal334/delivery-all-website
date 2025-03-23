@@ -19,7 +19,7 @@ function Header() {
   }
 
   return (
-    <header className='sticky top-0 bg-white z-50'>
+    <header className={`${isOpen ? 'static top-auto' :'sticky top-0'} bg-white z-50`}>
       <div className=' container mx-auto  p-4 my-2 flex flex-col md:flex-row items-center justify-between flex-wrap md:flex-nowrap '>
         <div className='w-full flex justify-between items-center md:w-auto'>
           <Image src='/DeliverAll@2x.png' alt='Delivery All' width={94} height={20} />
