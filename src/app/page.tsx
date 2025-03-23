@@ -5,6 +5,7 @@ import HowItWorks from "@/components/HowItWorks"
 import PartnersCard from "@/components/PartnersCard"
 import Newletter from "@/components/Newletter"
 import ContactSection from "@/components/ContactSection"
+import Testimonials from "@/components/Testimonials"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <AboutUs/>
           <HowItWorks/>
           <Newletter/>
+          <Testimonials/>
           <ContactSection/>
           <PartnersCard/>
 

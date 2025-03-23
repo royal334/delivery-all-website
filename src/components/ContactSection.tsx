@@ -4,7 +4,7 @@ function ContactSection() {
   return (
     <section id='contact' className='bg-light-grey-2'>
           <div className='flex flex-col md:flex-row justify-between gap-14 container mx-auto py-10 md:py-16 px-6 md:px-0'>
-               <div className='flex flex-col md:self-center gap-12 w-1/2'>
+               <div className='flex flex-col md:self-center gap-12 md:w-1/2'>
                     <div className='flex flex-col gap-3'>
                          <p className='text-bright-green font-inter font-bold'>ADDRESS</p>
                          <p className='font-inter font-bold text-xl'>123 Main Street, Fegge, Onitsha, Anambra</p>

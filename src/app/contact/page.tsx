@@ -1,14 +1,16 @@
 import React from 'react'
+import ContactHeroSection from './components/ContactHeroSection'
 import ContactSection from '@/components/ContactSection'
 import Newletter from '@/components/Newletter'
 
-function page() {
+function ContactPage() {
   return (
      <>
-     <ContactSection/>
-     <Newletter/>
-     </>
+    <ContactHeroSection/>
+    <ContactSection/>
+    <Newletter/>
+    </>
   )
 }
 
-export default page
+export default ContactPage
