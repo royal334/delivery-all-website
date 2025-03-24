@@ -15,7 +15,7 @@ const Vission = () => {
             <p className='text-black-1 font-inter font-bold text-xl pt-3'>Our Vision</p>
             <p className='text-sm font-poppins text-[#777777] pt-6 '>We are dedicated to making logistics smarter, faster, and more convenient. Our team is constantly innovating to enhance your delivery experience, ensuring every package is handled with care and reaches its destination without hassle.</p>
             <ul className='text-[#777777] font-poppins text-sm pt-6'>
-               <li className='flex items-center'> <Icons.check /> 
+               <li className='flex items-center'> <Icons.check className='w-10 h-10 min-w-[40px] min-h-[40px]'/> 
                <p className='pl-2'>For Everyone – No matter who you are, if you need to send a package, DeliverAll is for you.</p></li>
                <li className='flex items-center pt-6'> <Icons.check /> 
                <p className='pl-2'>Affordable & Transparent Pricing – No hidden fees, just straightforward pricing.</p></li>

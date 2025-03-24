@@ -5,9 +5,9 @@ import Link from 'next/link'
 const HowItWorks = () => {
   return (
     <>
-    <div className='container mx-auto py-16 px-6 lg:pl-20  w-full hidden md:block '>
+    <div className='container mx-auto py-[60px]  lg:pl-20  w-full hidden xl:block '>
       <div className="flex  items-center relative w-full">
-        <div className="bg-bluish-green rounded-3xl p-12 lg:w-[950px] z-0">
+        <div className="bg-bluish-green flex  rounded-3xl p-12 xl:w-[950px] z-0">
             <div className="lg:max-w-md">
                 <p className='text-sm font-bold text-bright-green font-poppins uppercase '>how it works</p>
                 <p className='text-white font-bold font-inter text-xl pt-6'>Simplifying Your Delivery Journey</p>
@@ -26,7 +26,7 @@ const HowItWorks = () => {
                     Hassle-Free Drop-off: <span className='font-light'> No need to meet in person—our waybill service ensures seamless handover to receivers.</span>
                     </li>
                 </ul>
-               <div className="flex flex-col sm:flex-row  pt-6">
+               <div className="flex flex-row  w-full  pt-6">
                <button className='text-bluish-green capitalize font-inter text-sm font-bold  bg-[#FFFFFF] rounded-md py-4 px-7 mr-3 '>
                 Learn More</button>
                 <button className='text-white capitalize border mt-3 sm:mt-0 border-[#FFFFFF] font-inter text-sm font-bold  bg-transparent  rounded-md py-2 px-7 '>
@@ -37,7 +37,7 @@ const HowItWorks = () => {
 
 
         </div>
-        <div className="absolute right-32 ">
+        <div className="absolute right-0 xl:right-32 ">
             <Image
                 src="/howItWorks.png"
                 alt="how it works"
@@ -48,16 +48,11 @@ const HowItWorks = () => {
 
       </div>
     </div>
-
-
-    
-
-        <div className='container mx-auto px-6 md:px-0 py-16 md:hidden'>
-        <div className='flex flex-col md:flex-row  justify-center gap-6'>
-
-            <div className='bg-bluish-green px-6 py-12 md:pt-12 md:pl-12 md:pb-12 md:pr-[240px] rounded-3xl md:w-1/2'>
+        <div className='container mx-auto px-6  py-[40px] xl:hidden'>
+        <div className='flex flex-col lg:flex-row lg:items-center justify-center gap-6'>
+            <div className='bg-bluish-green px-5 py-12 md:pt-12 md:pl-12 md:pb-12 md:pr-12 rounded-3xl lg:w-1/2'>
                   <p className='text-bright-green uppercase mb-6 font-bold'>how it works</p>
-                  <h4 className='font-bold text-2xl text-white mb-6'>Simplifying Your Delivery Journey</h4>
+                  <h4 className='font-bold text-xl font-inter text-white mb-6'>Simplifying Your Delivery Journey</h4>
                   <p className='text-light-grey-2 mb-6'>Simple steps to get your packages delivered...</p>
 
                   <ul className='flex flex-col gap-6 text-white'>
@@ -67,9 +62,9 @@ const HowItWorks = () => {
                       <li>4. <span className="font-semibold">Hassle-Free Drop-off: </span>No need to meet in person—our waybill service ensures seamless handover to receivers.</li>
                   </ul>
 
-                  <div className='flex mt-6 gap-3'>
-                      <button className='text-bluish-green bg-white px-2 py-2 rounded-md w-1/2'><Link href='/about' >Learn More</Link></button>
-                      <button className='font-bold text-white rounded-md border border-white px-2 py-2 w-1/2'><Link href='/' >Make A Delivery</Link></button>
+                  <div className='flex flex-col w-full mt-6 gap-3'>
+                      <button className='text-bluish-green bg-white px-2 py-2 rounded-md '><Link href='/about' >Learn More</Link></button>
+                      <button className='font-bold text-white rounded-md border border-white px-2 py-2'><Link href='/' >Make A Delivery</Link></button>
                   </div>
             </div>
 
