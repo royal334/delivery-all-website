@@ -4,7 +4,7 @@ import React from 'react'
 
 const Vission = () => {
   return (
-    <div className='container mx-auto py-[50px] lg:px-20 '>
+    <div className='lg:container mx-auto py-[50px] lg:px-20 '>
       <div className="flex justify-between   flex-col-reverse md:flex-row  w-full md:items-center ">
       <div className="pt-[40px] lg:pt-0">
                   <Image className='object-cover' src='/vission-image.png' alt='mission-image' width={464} height={464}/>

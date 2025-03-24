@@ -4,7 +4,7 @@ import React from 'react'
 
 const Mission = () => {
   return (
-    <div className='container mx-auto lg:px-20 pt-[60px] '>
+    <div className='lg:container mx-auto lg:px-20 pt-[60px] '>
       <div className="flex justify-between flex-col  md:flex-row w-full md:items-center ">
         <div className="md:max-w-[470px] px-6  lg:px-0">
             <p className='text-sm font-bold text-bright-green font-inter'>MISSION STATEMENT</p>
