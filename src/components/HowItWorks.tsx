@@ -26,10 +26,10 @@ const HowItWorks = () => {
                     Hassle-Free Drop-off: <span className='font-light'> No need to meet in person—our waybill service ensures seamless handover to receivers.</span>
                     </li>
                 </ul>
-               <div className="flex pt-6">
+               <div className="flex flex-col sm:flex-row  pt-6">
                <button className='text-bluish-green capitalize font-inter text-sm font-bold  bg-[#FFFFFF] rounded-md py-4 px-7 mr-3 '>
                 Learn More</button>
-                <button className='text-white capitalize border border-[#FFFFFF] font-inter text-sm font-bold  bg-transparent  rounded-md py-2 px-7 '>
+                <button className='text-white capitalize border mt-3 sm:mt-0 border-[#FFFFFF] font-inter text-sm font-bold  bg-transparent  rounded-md py-2 px-7 '>
                 Make A Delivery</button>
 
                </div>

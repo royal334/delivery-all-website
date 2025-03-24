@@ -25,6 +25,9 @@ const config: Config = {
         inter: ['var(--font-inter)', 'sans-serif'],
         poppins: ['var(--font-poppins)', 'sans-serif'],
       },
+      screens:{
+        xs:'350px'
+      },
     },
   },
   plugins: [],

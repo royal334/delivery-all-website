@@ -40,7 +40,7 @@ const PartnersCard = () => {
 
          <div className='flex   slide-animation'>
           {repeatedPartners.map((partner, index) => (
-           <div key={`original-${index}`} className=" mr-20 h-24 w-32 relative  rounded-md ">
+           <div key={`original-${index}`} className=" mr-24 h-24 w-32 relative  rounded-md ">
            <Image
              src={`/${partner.logo}`}
              fill
