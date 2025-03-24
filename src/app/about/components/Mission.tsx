@@ -4,9 +4,9 @@ import React from 'react'
 
 const Mission = () => {
   return (
-    <div className='container mx-auto lg:px-20'>
-      <div className="flex justify-between flex-col md:flex-row w-full items-center py-[40px]">
-        <div className="md:max-w-[470px] px-6 lg:px-0">
+    <div className='container mx-auto lg:px-20 pt-[60px] '>
+      <div className="flex justify-between flex-col  md:flex-row w-full md:items-center ">
+        <div className="md:max-w-[470px] px-6  lg:px-0">
             <p className='text-sm font-bold text-bright-green font-inter'>MISSION STATEMENT</p>
             <p className='text-black-1 font-inter font-bold text-xl pt-3'>Our Mission</p>
             <p className='text-sm font-poppins text-[#777777] pt-6 '>To provide a seamless, secure, and stress-free delivery experience that connects people, businesses, and locations effortlessly.</p>
@@ -22,8 +22,8 @@ const Mission = () => {
                
             </ul>
         </div>
-        <div className="">
-            <Image src='/mission-image.png' alt='mission-image' width={464} height={464}/>
+        <div className="pt-[40px] lg:pt-0">
+            <Image className='object-cover' src='/mission-image.png' alt='mission-image' width={464} height={464}/>
         </div>
       </div>
     </div>

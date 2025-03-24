@@ -4,8 +4,8 @@ function HeroForm() {
   return (
     <form action="" className='bg-white p-6 rounded-2xl'>
           <div className='mb-4 '>
-               <h2 className='font-semibold text-[#1E1E1E] text-center'>Make Quick Delivery</h2>
-               <p className='font-[12px] text-[#777777] text-center'>Select your preferred options and proceed to booking</p>
+              <h2 className='font-semibold text-[#1E1E1E] text-center'>Make Quick Delivery</h2>
+              <p className='font-[12px] text-[#777777] text-center'>Select your preferred options and proceed to booking</p>
           </div>
           <div>
                 <label htmlFor="pickup" className='block text-[#1E1E1E]'>Pickup Location</label>

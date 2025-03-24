@@ -4,11 +4,12 @@ import React from 'react'
 
 const Vission = () => {
   return (
-    <div className='container mx-auto lg:px-20 '>
-      <div className="flex justify-between flex-col flex-col-reverse md:flex-row  w-full items-center ">
-      <div className="">
-            <Image src='/vission-image.png' alt='vission-image' width={464} height={464}/>
+    <div className='container mx-auto py-[50px] lg:px-20 '>
+      <div className="flex justify-between   flex-col-reverse md:flex-row  w-full md:items-center ">
+      <div className="pt-[40px] lg:pt-0">
+                  <Image className='object-cover' src='/vission-image.png' alt='mission-image' width={464} height={464}/>
         </div>
+        
         <div className="md:max-w-[470px] px-6 lg:px-0">
             <p className='text-sm font-bold text-bright-green font-inter'>VISION STATEMENT</p>
             <p className='text-black-1 font-inter font-bold text-xl pt-3'>Our Vision</p>
