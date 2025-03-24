@@ -5,7 +5,7 @@ import Link from 'next/link'
 const HowItWorks = () => {
   return (
     <>
-    <div className='container mx-auto py-[60px]  lg:pl-20  w-full hidden xl:block '>
+    <div className='lg:container mx-auto py-[60px]  lg:pl-20  w-full hidden xl:block '>
       <div className="flex  items-center relative w-full">
         <div className="bg-bluish-green flex  rounded-3xl p-12 xl:w-[950px] z-0">
             <div className="lg:max-w-md">
@@ -48,7 +48,7 @@ const HowItWorks = () => {
 
       </div>
     </div>
-        <div className='container mx-auto px-6  py-[40px] xl:hidden'>
+        <div className='lg:container mx-auto px-6  py-[40px] xl:hidden'>
         <div className='flex flex-col lg:flex-row lg:items-center justify-center gap-6'>
             <div className='bg-bluish-green px-5 py-12 md:pt-12 md:pl-12 md:pb-12 md:pr-12 rounded-3xl lg:w-1/2'>
                   <p className='text-bright-green uppercase mb-6 font-bold'>how it works</p>

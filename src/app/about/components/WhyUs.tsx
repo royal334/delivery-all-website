@@ -4,7 +4,7 @@ import Image from 'next/image'
 function WhyUs() {
   return (
     <section>
-          <div className='container mx-auto py-[60px] px-6 lg:px-20'>
+          <div className='lg:container mx-auto py-[60px] px-6 lg:px-20'>
                <div className='w-full lg:max-w-lg mx-auto flex items-center justify-center flex-col gap-3 mb-16'>
                     <span className='uppercase font-bold font-inter text-bright-green text-center'>WHY CHOOSE US?</span>
                     <h3 className='text-black-1 font-bold font-inter text-xl'>Our Core Values</h3>

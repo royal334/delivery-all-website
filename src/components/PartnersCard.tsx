@@ -33,7 +33,7 @@ const repeatedPartners = [...partners, ...partners, ...partners];
 
 const PartnersCard = () => {
   return (
-    <div className='container mx-auto py-[48px]  px-6 lg:pl-20  w-full '>
+    <div className='lg:container mx-auto py-[48px]  px-6 lg:pl-20  w-full '>
          <p className='uppercase font-bold font-inter text-bright-green text-center'>PARTNERSHIPS</p>
          <h3 className='text-black-1 text-center  font-bold font-inter text-xl pt-3'>Our Delivery Partners</h3>
          <div className="no-scrollbar slide-container mt-14">
