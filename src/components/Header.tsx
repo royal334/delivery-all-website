@@ -1,5 +1,5 @@
 'use client'
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -17,6 +17,16 @@ function Header() {
   function toggleMenu(){
     setIsOpen(!isOpen)
   }
+
+  useEffect(() => {
+    if(isOpen){
+         document.body.classList.add('overflow-hidden');
+    }
+    else{
+         document.body.classList.remove('overflow-hidden');
+    }
+
+}, [isOpen])
 
   return (
     <header className={`${isOpen ? 'static top-auto' :'sticky top-0'} bg-white z-50`}>
