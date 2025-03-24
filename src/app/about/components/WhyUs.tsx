@@ -4,7 +4,7 @@ import Image from 'next/image'
 function WhyUs() {
   return (
     <section>
-          <div className='container mx-auto py-[60px] px-6 bg-red-500 lg:px-20'>
+          <div className='container mx-auto py-[60px] px-6 lg:px-20'>
                <div className='w-full lg:max-w-lg mx-auto flex items-center justify-center flex-col gap-3 mb-16'>
                     <span className='uppercase font-bold font-inter text-bright-green text-center'>WHY CHOOSE US?</span>
                     <h3 className='text-black-1 font-bold font-inter text-xl'>Our Core Values</h3>
@@ -13,7 +13,7 @@ function WhyUs() {
                </div>
 
 
-               <div className='grid grid-cols-1 md:grid-cols-3 text-center bg-slate-400  gap-6 items-center justify-center w-full '>
+               <div className='grid grid-cols-1 md:grid-cols-3 text-center   gap-6 items-center justify-center w-full '>
                          <div className='flex flex-col  lg:max-w-sm items-center hover:transition-all hover:duration-300 hover:ease-in-out hover:bg-light-grey-2 hover:border-[0.5px] hover:border-bright-green hover:rounded-3xl justify-center gap-6 cursor-pointer p-6'>
 
                               <Image src='/icon-clock.png' alt='clock' width={60} height={60} />
