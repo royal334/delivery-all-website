@@ -13,7 +13,7 @@ function WhyUs() {
                </div>
 
 
-               <div className='grid grid-cols-1 md:grid-cols-3 text-center   gap-6 items-center justify-center w-full '>
+               <div className='grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2  text-center   gap-6 items-center justify-center w-full '>
                          <div className='flex flex-col  lg:max-w-sm items-center hover:transition-all hover:duration-300 hover:ease-in-out hover:bg-light-grey-2 hover:border-[0.5px] hover:border-bright-green hover:rounded-3xl justify-center gap-6 cursor-pointer p-6'>
 
                               <Image src='/icon-clock.png' alt='clock' width={60} height={60} />
