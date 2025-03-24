@@ -50,7 +50,7 @@ const HowItWorks = () => {
     </div>
         <div className='lg:container mx-auto px-6  py-[40px] xl:hidden'>
         <div className='flex flex-col lg:flex-row lg:items-center justify-center gap-6'>
-            <div className='bg-bluish-green px-5 py-12 md:pt-12 md:pl-12 md:pb-12 md:pr-12 rounded-3xl lg:w-1/2'>
+            <div className='bg-bluish-green px-5  py-12 md:pt-12 sm:px-12 lg:px-10 md:pb-12 rounded-3xl lg:w-1/2'>
                   <p className='text-bright-green uppercase mb-6 font-bold'>how it works</p>
                   <h4 className='font-bold text-xl font-inter text-white mb-6'>Simplifying Your Delivery Journey</h4>
                   <p className='text-light-grey-2 mb-6'>Simple steps to get your packages delivered...</p>
@@ -63,8 +63,8 @@ const HowItWorks = () => {
                   </ul>
 
                   <div className='flex flex-col w-full mt-6 gap-3'>
-                      <button className='text-bluish-green bg-white px-2 py-2 rounded-md '><Link href='/about' >Learn More</Link></button>
-                      <button className='font-bold text-white rounded-md border border-white px-2 py-2'><Link href='/' >Make A Delivery</Link></button>
+                      <button className='text-bluish-green sm:w-1/2 lg:w-full bg-white px-2 py-2 rounded-md '><Link href='/about' >Learn More</Link></button>
+                      <button className='font-bold text-white sm:w-1/2 lg:w-full rounded-md border border-white px-2 py-2'><Link href='/' >Make A Delivery</Link></button>
                   </div>
             </div>
 
