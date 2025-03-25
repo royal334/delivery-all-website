@@ -6,12 +6,8 @@ const AboutHerosection = () => {
   
     return (
         <div className="">
-        <div
-  className="h-[460px] bg-no-repeat bg-cover bg-center"
-  style={{
-    backgroundImage: "linear-gradient(0deg, #00000066, #00000033), url('/aboutImage.jpg')",
-  }}
->
+        <div className="h-[460px] bg-no-repeat bg-cover bg-center" style={{
+    backgroundImage: "linear-gradient(0deg, #00000066, #00000033), url('/aboutImage.jpg')",}}>
           <div className="flex flex-col px-6 w-full lg:px-0  items-center justify-center py-16">
             <p className="text-bright-green font-inter text-sm font-bold">ABOUT DELIVERALL</p>
             <div className="lg:max-w-2xl sm:max-w-xl ">
