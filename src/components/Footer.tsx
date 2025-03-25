@@ -7,7 +7,7 @@ function Footer() {
     <footer id='footer' className='bg-bluish-green text-white py-10 px-4 md:px-0'>
       <div className='container mx-auto flex flex-col md:flex-row  justify-between gap-6  border-b border-bright-green'>
           <div className='mb-8 md:w-1/4'>
-               <Image src='/DeliverAllwhite.png' alt='logo' width={113} height={24} className='mb-8'/>
+               <Image src='/zipu-delivery-logo-white-footer.png' alt='logo' width={120} height={39} className='mb-8'/>
                <p className='text-light-grey text-sm '>We believe that sending a package should be as simple as clicking a button. Whether you’re an individual, seller, buyer, or business, our platform makes it effortless to schedule, track, and complete deliveries without the need for in-person handovers.</p>
           </div>
           <div className='mb-8 md:w-1/4'>

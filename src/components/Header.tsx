@@ -1,7 +1,8 @@
 'use client'
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+
 
 
 function Header() {
@@ -18,21 +19,12 @@ function Header() {
     setIsOpen(!isOpen)
   }
 
-  useEffect(() => {
-    if(isOpen){
-         document.body.classList.add('overflow-hidden');
-    }
-    else{
-         document.body.classList.remove('overflow-hidden');
-    }
-
-}, [isOpen])
 
   return (
     <header className={`${isOpen ? 'static top-auto' :'sticky top-0'} bg-white z-50`}>
-      <div className=' container mx-auto  p-4 my-2 flex flex-col md:flex-row items-center justify-between flex-wrap md:flex-nowrap '>
+      <div className={`container mx-auto  p-4 my-2 flex flex-col md:flex-row items-center justify-between flex-wrap md:flex-nowrap  `}>
         <div className='w-full flex justify-between items-center md:w-auto'>
-          <Image src='/DeliverAll@2x.png' alt='Delivery All' width={94} height={20} />
+          <Image src='/zipu-delivery-logo.png' alt='logo' width={120} height={39} />
           <Image src='/icon-menu.png' alt="Menu button" className='md:hidden' width={36} height={36} onClick={toggleMenu} />
         </div>
         <nav className='w-full hidden md:flex md:justify-between '>
@@ -50,8 +42,8 @@ function Header() {
         </nav>
         {/* {isOpen ? <div onClick={toggleMenu} className='absolute bg-[#80808080] top-0 left-0 w-full h-full z-40 '></div> : null} */}
             {isOpen &&  
-        <nav className='md:hidden h-full w-full'>
-          <ul className=' flex flex-col justify-center items-center absolute top-0 bg-white right-0 w-full h-full z-60 gap-10 px-4'>
+        <nav className='md:hidden '>
+          <ul className=' flex flex-col justify-center items-center h-1/2 top-0 w-full fixed bg-white rounded-md right-0 z-60 gap-10 px-4 shadow-2xl '>
             <Image src='/icon-menu.png' alt="Menu button" className='md:hidden z-70 mt-6 self-end ' width={36} height={36} onClick={toggleMenu} />
               <div className='mb-auto flex flex-col gap-10'>
                 <li className='text-center  uppercase'><Link href='/' className=' font-semibold ' onClick={toggleMenu}>Home</Link></li>
