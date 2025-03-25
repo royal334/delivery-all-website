@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <footer id='footer' className='bg-bluish-green text-white py-10 px-4 md:px-0'>
+    <footer id='footer' className='bg-bluish-green text-white py-10 px-6 lg:px-20'>
       <div className='container mx-auto flex flex-col md:flex-row  justify-between gap-6  border-b border-bright-green'>
           <div className='mb-8 md:w-1/4'>
                <Image src='/zipu-delivery-logo-white-footer.png' alt='logo' width={120} height={39} className='mb-8'/>
