@@ -1,8 +1,13 @@
 import React from 'react'
+import Newletter from '@/components/Newletter'
+import CheckOutPage from './components/CheckOutPage'
 
 function page() {
   return (
-    <div>page</div>
+    <>
+    <CheckOutPage/>
+    <Newletter/>
+    </>
   )
 }
 
