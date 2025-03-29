@@ -2,7 +2,12 @@ import { Icons } from '@/components/Icons'
 import React from 'react'
 import TrackingForm from './TrackingForm'
 
-const TrackingHeroSection = () => {
+export interface TrackPackageType{
+    onTrackPackage:(e: React.FormEvent) => void,
+    trackingNumber:string,
+    handleTrackChange:(e: React.ChangeEvent<HTMLInputElement>) => void
+}
+const TrackingHeroSection = ({onTrackPackage,trackingNumber,handleTrackChange}: TrackPackageType) => {
   return (
     <section className="tracking">
         <div className="py-[120px] px-6 lg:px-0  bg-no-repeat bg-cover bg-center" 
@@ -20,7 +25,7 @@ const TrackingHeroSection = () => {
                         
                     </div>
                 </div>
-                <TrackingForm/>
+                <TrackingForm trackingNumber={trackingNumber} handleTrackChange={handleTrackChange} onTrackPackage={onTrackPackage}/>
                
             </div>
         </div>

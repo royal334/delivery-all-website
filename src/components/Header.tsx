@@ -22,21 +22,21 @@ function Header() {
 
   return (
     <header className={`${isOpen ? 'static top-auto' :'sticky top-0'} bg-white z-50`}>
-      <div className={`container mx-auto  p-4 my-2 flex flex-col md:flex-row items-center justify-between flex-wrap md:flex-nowrap  `}>
+      <div className=' lg:container lg:px-20  mx-auto px-6  py-4 my-2 flex flex-col md:flex-row items-center justify-between flex-wrap md:flex-nowrap '>
         <div className='w-full flex justify-between items-center md:w-auto'>
-          <Image src='/zipu-delivery-logo.png' alt='logo' width={120} height={39} />
+        <Link href='/'>  <Image src='/zipu-delivery-logo.png' alt='Zipu delivery' width={94} height={20} /></Link>
           <Image src='/icon-menu.png' alt="Menu button" className='md:hidden' width={36} height={36} onClick={toggleMenu} />
         </div>
         <nav className='w-full hidden md:flex md:justify-between '>
-          <ul className=' flex justify-center items-center space-x-4 ml-auto'>
-            <li className={`${activeLink ==='home' ? 'border-b border-bright-green' : null}`}><Link href='/' className={`${activeLink ==='home' ? 'text-bluish-green' : null} font-inter`} onClick={() => handleLinkClick('home')}>Home</Link></li>
-            <li className={`${activeLink ==='about' ? 'border-b border-bright-green' : null}`}><Link href='/about'  className={`${activeLink ==='about' ? 'text-bluish-green' : null} font-inter`} onClick={() => handleLinkClick('about')}>About</Link></li>
-            <li className={`${activeLink ==='tracking' ? 'border-b border-bright-green' : null}`}><Link href='/tracking'  className={`${activeLink ==='tracking' ? 'text-bluish-green' : null} font-inter`} onClick={() => handleLinkClick('tracking')}>Tracking</Link></li>
-            <li className={`${activeLink ==='contact' ? 'border-b border-bright-green' : null}`}><Link href='/contact'  className={`${activeLink ==='contact' ? 'text-bluish-green' : null} font-inter`} onClick={() => handleLinkClick('contact')}>Contact</Link></li>
+          <ul className=' flex font-inter justify-center items-center space-x-4 ml-auto'>
+            <li className={`${activeLink ==='home' ? 'border-b-2 border-bright-green' : null}`}><Link href='/' className={`${activeLink ==='home' ? 'text-bluish-green' :'text-[#8D8D8D]'} font-inter`} onClick={() => handleLinkClick('home')}>Home</Link></li>
+            <li className={`${activeLink ==='about' ? 'border-b-2 border-bright-green' : null}`}><Link href='/about'  className={`${activeLink ==='about' ? 'text-bluish-green' : 'text-[#8D8D8D]'} font-inter`} onClick={() => handleLinkClick('about')}>About</Link></li>
+            <li className={`${activeLink ==='tracking' ? 'border-b-2 border-bright-green' : null}`}><Link href='/tracking'  className={`${activeLink ==='tracking' ? 'text-bluish-green' : 'text-[#8D8D8D]'} font-inter`} onClick={() => handleLinkClick('tracking')}>Tracking</Link></li>
+            <li className={`${activeLink ==='contact' ? 'border-b-2 border-bright-green' : null}`}><Link href='/contact'  className={`${activeLink ==='contact' ? 'text-bluish-green' : 'text-[#8D8D8D]'} font-inter`} onClick={() => handleLinkClick('contact')}>Contact</Link></li>
           </ul>
           <div className='ml-auto'>
             <Link href=''>
-              <button className='text-white font-semibold bg-bluish-green p-4 rounded-md cursor-pointer'>Download App</button>
+              <button className='text-white font-semibold bg-bluish-green py-3 px-6 rounded-md cursor-pointer'>Download App</button>
             </Link>
           </div>
         </nav>
