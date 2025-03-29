@@ -27,23 +27,23 @@ function ContactSection() {
                          <div className='flex flex-col md:flex-row gap-6 '>
                               <div className='flex flex-col gap-1 md:w-1/2'>
                                    <label htmlFor='name' className='font-inter'>Name</label>
-                                   <input type='text' id='name' className='rounded-md border-[0.5px] border-[#B9B9B9] h-14 ' />
+                                   <input type='text' id='name' className='rounded-md border-[0.5px] border-[#B9B9B9] h-14  px-4' />
                               </div>
 
                               <div className='flex flex-col gap-1 md:w-1/2'>
                                    <label htmlFor='email' className='font-inter'>Email Address</label>
-                                   <input type='email' id='email' className='rounded-md border-[0.5px] border-[#B9B9B9] h-14 ' />
+                                   <input type='email' id='email' className='rounded-md border-[0.5px] border-[#B9B9B9] h-14  px-4' />
                               </div>
                          </div>
 
                          <div className='flex flex-col gap-1'> 
                               <label htmlFor="subject" className='font-inter'>Subject</label>
-                              <input type="text" id='subject' className='rounded-md border-[0.5px] border-[#B9B9B9] h-14' />
+                              <input type="text" id='subject' className='rounded-md border-[0.5px] border-[#B9B9B9] h-14 px-4' />
                          </div>
 
                          <div className='flex flex-col gap-1'>
                               <label htmlFor='message' className='font-inter'>Message</label>
-                              <textarea name='message' id='message'  className='rounded-md border-[0.5px] border-[#B9B9B9] h-[120px]'></textarea>
+                              <textarea name='message' id='message'  className='rounded-md border-[0.5px] border-[#B9B9B9] h-[120px] px-4'></textarea>
                          </div>
                          <button className='bg-bluish-green text-white font-inter font-bold py-3 rounded-md my-6'>Send Message</button>
                     </form>

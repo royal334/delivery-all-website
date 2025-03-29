@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'Zipu',
-  description: 'Logiostics webapp delivery',
+  description: 'Logistics webapp delivery',
 }
 
 // Load Inter
