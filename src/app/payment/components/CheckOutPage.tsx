@@ -21,7 +21,7 @@ function CheckOutPage() {
 
                                    <div className="flex flex-col pb-6 border-b-[0.5px] border-light-grey-3 mb-6">
                                         <label htmlFor="location" className='font-poppins text-black-1'>Select Payment Method</label>
-                                        <select name="location" id="location" className='px-10 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 credit-card'>
+                                        <select name="location" id="location" className='px-10 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 credit-card' required>
                                              <option value="card-number" className='font-poppins text-black-1'>Credit Card</option>
                                              <option value="" className='font-poppins text-black-1'>Paypal</option>
                                              <option value="" className='font-poppins text-black-1'>CashApp</option>
@@ -31,23 +31,23 @@ function CheckOutPage() {
 
                                    <div className="flex flex-col mb-6">
                                         <label htmlFor="email" className='font-poppins text-black-1 mb-1'>Email address</label>
-                                        <input type="email"  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins' placeholder='youremail@gmail.com'/>
+                                        <input type="email"  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins' placeholder='youremail@gmail.com' required/>
                                    </div>
 
                                    <div className="flex flex-col mb-6">
                                         <label htmlFor="card-number" className='font-poppins text-black-1 mb-1'>Card Number</label>
-                                        <input type="number" name='card-number' id='card-number'  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins' placeholder='123456789'/>
+                                        <input type="number" name='card-number' id='card-number'  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins' placeholder='123456789' required/>
                                    </div>
 
                                    <div className="flex flex-col md:flex-row mb-6 justify-between gap-6">
                                         <div className="flex flex-col md:w-1/2">
                                              <label htmlFor="expiry-date" className='font-poppins text-black-1 mb-1'>Expiry Date</label>
-                                             <input type="text" name='expiry-date' id='expiry-date'  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins eye' placeholder='MM/YY'/>
+                                             <input type="text" name='expiry-date' id='expiry-date'  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins eye' placeholder='MM/YY' required/>
                                         </div>
 
                                         <div className="flex flex-col md:w-1/2 ">
                                              <label htmlFor="cvv" className='font-poppins text-black-1 mb-1'>CVV</label>
-                                             <input type="number" name='cvv' id='cvv'  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins eye' placeholder='***'/>
+                                             <input type="number" name='cvv' id='cvv'  className='px-5 py-6 outline-bright-green border-[0.5px] border-light-grey-4 rounded-md mb-6 font-poppins eye' placeholder='***' required/>
                                         </div>
 
                                    </div>
