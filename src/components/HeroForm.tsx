@@ -9,13 +9,21 @@ function HeroForm() {
           </div>
           <div>
                 <label htmlFor="pickup" className='block text-[#1E1E1E]'>Pickup Location</label>
-                <input type="text" id='pickup' placeholder='Enter pickup address' className='w-full p-2 mb-6 border border-[#E9E9E9] rounded'/>
+                <input type="text" id='pickup' placeholder='Enter pickup address' className='w-full p-2 mb-6 border border-[#E9E9E9] rounded outline-bluish-green'/>
 
                 <label htmlFor="delivery" className='block text-[#1E1E1E]'>Delivery Location</label>
-                <input type="text" name="delivery" id="delivery" className='w-full p-2 mb-6 border border-[#E9E9E9] rounded' placeholder='Enter delivery address'  />
+                <input type="text" name="delivery" id="delivery" className='w-full p-2 mb-6 border border-[#E9E9E9] rounded outline-bluish-green' placeholder='Enter delivery address'  />
 
-                <label htmlFor="delivery" className='block text-[#1E1E1E]'>Page Type</label>
-                <input type="text" name="document" id="document" className='w-full p-2 mb-6 border border-bluish-green rounded' placeholder='Document'  />
+                <label htmlFor="package" className='block text-[#1E1E1E]'>Item Type</label>
+                <select className='w-full p-2 mb-6 border rounded outline-bluish-green' name='pakage-type' id='package'>
+                  <option value="" disabled selected>Choose item type</option>
+                  <option value="document">Document</option>
+                  <option value="appliacne">Appliance</option>
+                  <option value="perishables">Perishables</option>
+                  <option value="fragiles">Fragiles</option>
+                  <option value="others">Others</option>
+                </select>
+                
 
                 <button className='bg-bluish-green text-white p-4 w-full rounded-md'>Continue</button>
           </div>

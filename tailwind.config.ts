@@ -18,6 +18,7 @@ const config: Config = {
           'light-grey-2': '#F6F6F6',
           'border-gray':'#DEDEDE',
           'light-grey-3':'#8A8A8A',
+          'light-grey-4':'#B9B9B9',
           'black-1':'#1E1E1E',
         
       },
