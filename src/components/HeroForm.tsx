@@ -1,10 +1,16 @@
-'use server'
+'use client'
 import Link from 'next/link'
 import React from 'react'
 
 function HeroForm() {
+
+      function handleSubmit(e: React.FormEvent<HTMLFormElement>){
+        e.preventDefault()
+      }
+
   return (
-    <form  className='bg-white p-6 rounded-2xl'>
+
+    <form onSubmit={handleSubmit} className='bg-white p-6 rounded-2xl' >
           <div className='mb-4 '>
               <h2 className='font-semibold text-[#1E1E1E] text-center'>Make Quick Delivery</h2>
               <p className='font-[12px] text-[#777777] text-center'>Select your preferred options and proceed to booking</p>
@@ -20,14 +26,14 @@ function HeroForm() {
                 <select className='w-full p-2 mb-6 border rounded outline-bluish-green' name='pakage-type' id='package' required>
                   <option value="" disabled selected>Choose item type</option>
                   <option value="document">Document</option>
-                  <option value="appliacne">Appliance</option>
+                  <option value="appliance">Appliance</option>
                   <option value="perishables">Perishables</option>
                   <option value="fragiles">Fragiles</option>
                   <option value="others">Others</option>
                 </select>
                 
 
-                <button className='bg-bluish-green text-white p-4 w-full rounded-md'><Link href='/book-package'>Continue</Link></button>
+                <Link href='/book-package'><button className='bg-bluish-green text-white p-4 w-full rounded-md'>Continue</button></Link>
           </div>
 
     </form>
