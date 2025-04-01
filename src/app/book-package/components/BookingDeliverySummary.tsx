@@ -33,7 +33,7 @@ const BookingDeliverySummary = () => {
                 <p className='text-[#0E5F76] font-bold font-poppins text-base'>N4,500.00</p>
             </div>
             <hr className='my-6 bg-[#8A8A8A] h-[1px]'/>
-            <button className='font-inter font-semibold text-[#fff] bg-[#0E5F76] rounded-md w-full text-base py-4'><Link href='/payment'>Confirm Booking</Link></button>
+            <Link href='/payment'><button className='font-inter font-semibold text-[#fff] bg-[#0E5F76] rounded-md w-full text-base py-4'>Confirm Booking</button></Link>
         </div>
     </div>
   )
