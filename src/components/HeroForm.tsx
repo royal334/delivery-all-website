@@ -4,7 +4,7 @@ import React from 'react'
 
 function HeroForm() {
 
-      function handleSubmit(e:any){
+      function handleSubmit(e: React.FormEvent<HTMLFormElement>){
         e.preventDefault()
       }
 
